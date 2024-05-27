@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculadora de Paneles Solares</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Paneles Solares</h2>
+        <div class="form-group">
+            <label for="a">Ancho del panel solar (a):</label>
+            <input type="number" id="a" required>
+        </div>
+        <div class="form-group">
+            <label for="b">Altura del panel solar (b):</label>
+            <input type="number" id="b" required>
+        </div>
+        <div class="form-group">
+            <label for="x">Ancho del techo (x):</label>
+            <input type="number" id="x" required>
+        </div>
+        <div class="form-group">
+            <label for="y">Altura del techo (y):</label>
+            <input type="number" id="y" required>
+        </div>
+        <button onclick="calculatePanels()">Calcular</button>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
