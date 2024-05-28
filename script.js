@@ -33,5 +33,5 @@ function maxPanels(a, b, x, y) {
 }
 
 // Ejemplo de uso:
-const a = 1, b = 2, x = 4, y = 5;
-console.log(maxPanels(a, b, x, y)); // Output: 5
+const a = 2, b = 2, x = 1, y = 10;
+console.log(maxPanels(a, b, x, y));
